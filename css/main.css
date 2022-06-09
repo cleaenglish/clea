@@ -332,4 +332,6 @@ p{
         height: auto;
         max-width: 960px;
       }
-      
+      .chamber h1{
+          text-align: center;
+      }
