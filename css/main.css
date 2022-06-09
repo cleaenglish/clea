@@ -204,7 +204,7 @@ p{
 
 .button1 {
    padding: 10px 10px 10px 10px;
-   color: #1bc8e6;;;
+   color: #1bc8e6;
    background-color: rgb(14, 10, 116);
    border-radius: 10px;
    cursor:pointer;
@@ -275,7 +275,7 @@ p{
     
     .navigation a:hover {
         color: white;
-        background-color: #227C9D;
+        background-color: #1bc8e6;
     }
     
     /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
