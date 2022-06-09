@@ -1,6 +1,7 @@
 
+
 @media only screen and (min-width: 60em){
-    
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');    
     .picture{
         height:120px;
         width: 120px;
@@ -12,7 +13,7 @@ grid-template:
    "event chamber chamber aside" auto
    "weather chamber chamber aside"auto
    "join news news aside"auto
-   /* " two two two two" auto */
+    " two two two two" auto 
    " one one one one " 720px
    "footer footer footer footer" auto
    /1fr 1fr 1fr 1fr;
@@ -26,7 +27,13 @@ grid-template:
         margin-left: 50px;
        
        }
-       
+       .news p, .join p{
+        font-size: 1.5em;
+    }
+
+    .event h1{
+        font-weight: 900;
+    }
     .aside{
            margin-right: 50px;
            display:grid;

@@ -24,7 +24,7 @@ grid-template:
 "header header header" auto
 "chamber chamber chamber " 350px
 "news    news     news" 250px
-/* "two two two" auto */
+"two two two" auto 
 "one one one "350px
 "aside aside aside" auto
 "join join join" auto
@@ -42,7 +42,8 @@ grid-template:
 
 } 
 .information{
-padding-left:150px;
+padding: left 70px;
+
 }
 .button{
 margin-top: 200px;

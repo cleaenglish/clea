@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
+
 *{
     box-sizing:border-box;
     margin:0 ;
@@ -126,6 +127,13 @@ p{
     .news{
         grid-area: news;
         color: #0445a6;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column
+    }
+    .news p, .join p{
+        font-weight:bolder;
     }
     .aside{
         color: #0445a6;
@@ -146,7 +154,7 @@ p{
        grid-template: 
        "header" auto
        "chamber" 250px
-       "two"auto
+       "two"
        "one" 250px
        "event"auto
        "weather"auto
@@ -294,13 +302,11 @@ p{
     }
     
     
-    /* .two{grid-area: two; */
-/*     
-     
-        position: relative;
-        width: 100%;
-        overflow: hidden;
-        padding-top: 56.25%;
+    
+     .two{grid-area: two;   
+        display: flex;
+        justify-content: center;
+        align-content: center;
        }
        /* .container {
         position: relative;
@@ -319,3 +325,11 @@ p{
         height: 100%;
         border: none;
       }
+
+      video {
+        
+        width: 100%;
+        height: auto;
+        max-width: 960px;
+      }
+      
