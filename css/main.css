@@ -96,6 +96,7 @@ p{
      }
     .event{
         grid-area: event;
+        color: #0445a6;
     }
     
     .chamber{
@@ -108,15 +109,19 @@ p{
 
     .weather{
         grid-area: weather;
+        color: #0445a6;
         }
     .join{
         grid-area: join;
         display:none;
+        color: #0445a6;
         }
     .news{
         grid-area: news;
+        color: #0445a6;
     }
     .aside{
+        color: #0445a6;
         grid-area: aside;
         gap:10px;
         display:grid;
