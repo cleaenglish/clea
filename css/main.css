@@ -27,6 +27,7 @@
    }
 
    .header{
+    margin-top: 5px;
      box-shadow:-1px 1px 7px 0px black;
        border-radius: 4px; 
        /* padding: 10px;
@@ -121,7 +122,6 @@ p{
     background-image:url("https://cdn.glitch.global/b871c8c6-5f77-4d6d-a1fd-f6f97a229c4a/w1.webp?v=1664504836211");
         background-repeat: no-repeat;
         background-size: cover;
-
         font-family: 'Poppins', sans-serif ;
 
         
@@ -220,14 +220,26 @@ p{
     text-align: center;
    }
 .delivery{
+    grid-area:chamber;
+    background-image:url("https://cdn.glitch.global/b871c8c6-5f77-4d6d-a1fd-f6f97a229c4a/w1.webp?v=1664504836211");
+        background-repeat: no-repeat;
+        background-size: cover;
     grid-area: delivery;
 }
 .companies{
+    grid-area:chamber;
+    background-image:url("https://cdn.glitch.global/b871c8c6-5f77-4d6d-a1fd-f6f97a229c4a/w1.webp?v=1664504836211");
+        background-repeat: no-repeat;
+        background-size: cover;
     grid-area: companies;
     align-items: center;
     justify-content: center;
 }
 .strategies{
+    grid-area:chamber;
+    background-image:url("https://cdn.glitch.global/b871c8c6-5f77-4d6d-a1fd-f6f97a229c4a/w1.webp?v=1664504836211");
+        background-repeat: no-repeat;
+        background-size: cover;
     grid-area: strategies;
     display:none;
 
