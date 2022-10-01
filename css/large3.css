@@ -10,11 +10,9 @@
      
 grid-template: 
    "header header header header" auto
-   "chamber chamber chamber chamber" 600px
-   "alert alert alert alert"auto
-   "event event event event"auto
-   "aside aside aside aside"
-   "join news news news"auto
+   "event chamber chamber aside" auto
+   "weather chamber chamber aside"auto
+   "join news news aside"auto
     " two two two two" auto 
    " one one one one " 720px
    "footer footer footer footer" auto
@@ -25,25 +23,13 @@ grid-template:
     .strategies{
         display:table;
        text-align: center; }    
-    .event,.aside{
-        margin-left: 80px;
-        margin-right: 80px;
+    .event,.weather,.join{
+        margin-left: 50px;
+       
        }
        .news p, .join p{
         font-size: 1.5em;
     }
-   
-
-
-.chamber h1 {
-   color: rgb(253, 252, 244);
-    font-size: 70px;
-    
-}
-
-.delivery1 {
-    padding-top: 100px;}
-
 
     .event h1{
         font-weight: 900;
@@ -52,15 +38,16 @@ grid-template:
            margin-right: 50px;
            display:grid;
            grid-template:
-           "delivery companies strategies" 1fr;
+           "delivery"1fr
+           "companies" 1fr
+           "strategies"1fr;
           
    }
-   .chamber{background-image: url("https://cdn.glitch.global/b871c8c6-5f77-4d6d-a1fd-f6f97a229c4a/w1.webp?v=1664504836211");
+   .chamber{background-image: url("https://cdn.glitch.global/e17a5c4c-9caa-43ea-8c7f-92916f26473c/center?v=1654187626108");
        background-repeat: no-repeat;
        background-size: cover;
-      
-       margin-top: 10px;
- 
+       background-position: center;
+
        ;}
 
        /* .chamber{display: flex;} */
@@ -68,15 +55,15 @@ grid-template:
            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
            /* text-shadow: 2px 2px 2px black,
            2px 2px 1px black;  */
-         
+           margin-top: 5px;
            text-align: left;
            color:rgb(6, 217, 241);
-           font-size:2em;}
+           font-size:4em;}
       
         .button{
         font-size: 1.25em;
-         
-       margin-top: 500px
+         margin-left:-50px;
+       margin-top: 200px
            ;}  
        .icon2{
            margin-left:10px ;
@@ -136,7 +123,4 @@ grid-template:
     }
   .title{display:contents;}
 
-  .text{
-    font-size: 2em;
-   }
 }   

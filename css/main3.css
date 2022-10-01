@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;900&display=swap');
 
 *{
     box-sizing:border-box;
@@ -13,23 +11,20 @@
    }
    body{
        font-family: 'Quicksand', sans-serif;
-       font-size:1em; 
+       font-size:1em;
        min-height: 100%;
        background-color: #f9fafd;
    }
    
    .grid-container >*{
-       /* box-shadow:-1px 1px 7px 0px black;
-       border-radius: 4px; */
-        padding: 10px; 
+       box-shadow:-1px 1px 7px 0px black;
+       border-radius: 4px;
+       padding: 10px;
        text-align: center;
        
    }
 
    .header{
-     box-shadow:-1px 1px 7px 0px black;
-       border-radius: 4px; 
-       /* padding: 10px;
        /* display:grid;
        /* flex-flow: row nowrap; */
        grid-area: header;
@@ -44,16 +39,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
+    /* padding: 10px; */
     
    }
-
+   .date{
+    display:flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+     background-color: #23a19b;
+     padding:4px 0 4px 0;
+     border-radius: 4px;
+     box-shadow:-1px 1px 7px 0px black;
+    border-width: 1px;  
      
-.alert h1 {
-   
-    font-family: 'Poppins', sans-serif;
 }
-
 .button1 a {text-decoration: none;}
 .name{
     display: flex;
@@ -74,18 +75,11 @@
 }
 p{
     font-size: 1.5em;
-   
+    font-weight: 100;
     
-   
+    
 }
-
-
-
-
    .footer{
-    box-shadow:-1px 1px 7px 0px black;
-    border-radius: 4px; 
-    font-weight:lighter;
     grid-area: footer;
     background-color:#faf9fa ;
     padding: 5px 20px 5px 20px;
@@ -103,117 +97,72 @@ p{
         font-weight: bold;
      }
     .event{
-    
-        font-size: 1em;
-        font-weight: 600;
         grid-area: event;
         color: #0445a6;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    .event h1{
-        font-family: 'Poppins', sans-serif;
-    }
     
     .chamber{
     grid-area:chamber;
-    background-image:url("https://cdn.glitch.global/b871c8c6-5f77-4d6d-a1fd-f6f97a229c4a/w1.webp?v=1664504836211");
-        background-repeat: no-repeat;
-        background-size: cover;
-
-        font-family: 'Poppins', sans-serif ;
-
-        
-    }
-  .chamber h1{
-    position: absolute;
-    text-align:left;
-    color: #f8f8fa;
-    font-size: 2em;
-    
-  }
-  .chamber p{
-    color: white;
-    font-size: 1.5em;
-}
-    .alert{
-       
-        flex-wrap: nowrap;
+    background-image: url("https://cdn.glitch.global/e17a5c4c-9caa-43ea-8c7f-92916f26473c/center?v=1654187626108");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        background-color: #072d66;
-        grid-area: alert;
-        color: white;
-        font-size: 0.55em;
-        flex-direction: column;
+    }
+
+    .weather{
+        grid-area: weather;
+        color: #0445a6;
+        display: flex;
         align-items: center;
         justify-content: center;
-        font-weight: 900;
-        font-stretch: ultra-expanded;
-        padding-bottom: 10px;
         }
-       
     .join{
-        font-family: 'Poppins', sans-serif;
-        background-image: url("https://cdn.glitch.global/9f162c5b-d9b9-4af6-b133-8f18bdfa2aeb/pexels-zaksheuskaya-1568607.jpg?v=1664237933983");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
         grid-area: join;
         display:none;
         color: #0445a6;
-        font-size: 1.2em;
-       
         }
     .news{
-       
-        background-image: url("https://cdn.glitch.global/9f162c5b-d9b9-4af6-b133-8f18bdfa2aeb/pexels-zaksheuskaya-1568607.jpg?v=1664237933983");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
         grid-area: news;
         color: #0445a6;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column
-        
     }
     .news p, .join p{
         font-weight:bolder;
     }
     .aside{
-        font-family: 'Poppins', sans-serif;
-        box-shadow: none;
         color: #0445a6;
         grid-area: aside;
         gap:10px;
         display:grid;
-        grid-template:"delivery"auto
-                     "companies"auto;
-} 
-    
+        grid-template:
+    "delivery"auto
+    "companies"auto
+    }
+     .event,.main,.weather,.news,.aside
+     {
+         background-color: aliceblue;
+     }   
    .grid-container{
        display:grid; 
        gap:10px;
-       font-weight: bold;
        grid-template: 
        "header" auto
        "chamber" 250px
        "two"
-       "alert"auto
        "one" 250px
        "event"auto
+       "weather"auto
        "news"250px
        "aside"auto
        "footer" auto;
    }
-   /* .aside,.event,.alert>h1 {
-    text-shadow: 2px 2px #f9fafc;
-   } */
-    .aside>*{
+   .aside>*{
     box-shadow:-1px 1px 7px 0px black;
     border-radius: 4px;
     padding: 10px;
@@ -224,6 +173,7 @@ p{
 }
 .companies{
     grid-area: companies;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -233,75 +183,46 @@ p{
 
 }
 .text{
-    position: absolute;
-
-    right: 16px;
-    text-shadow: 2px 2px 2px BLACK,
-    2px 2px 2px BLACK; 
+    text-shadow: 2px 2px 2px black,
+    2px 2px 1px black; 
     color:#1bc8e6;
     padding:0 10px 0 10px ;
-   
+    margin-top: -15px;
 }
 
-/* buttons */
-
 .button {
-    margin-top: 170px;
     padding: 10px 10px 10px 10px;
     font-weight: bolder;
-    background-color:  #1bc8e6;
-    border-color: #1bc8e6;
+    background-color:  #1bc8e6;;
     color: rgb(14, 10, 116); 
     border-radius: 10px;
-    font-size: 0.7em;
+    font-size: 1em;
     cursor:pointer;
-  
+    margin-top: 100px;
     
   }
-  .button_alert{
-    padding: 10px 10px 10px 10px;
-    color: rgb(14, 10, 116);
-    background-color: #1bc8e6;
-    border-radius: 10px;
-    cursor:pointer;
-    border-color: rgb(14, 10, 116);
-    font-size: 1em;
-    font-weight: bolder;
-  }
+
 .button1 {
    padding: 10px 10px 10px 10px;
    color: #1bc8e6;
    background-color: rgb(14, 10, 116);
    border-radius: 10px;
    cursor:pointer;
-   border-color: rgb(14, 10, 116);
    font-size: 1em;
    font-weight: bolder;
   }
 
-
-.button_alert h1{
-    font-size: 1.5em;
-}
-  .button1:hover,.button_alert:hover {
+  .button1:hover {
     background-color: white;
-    color: #FFCB77;
-    border-color: white;
-}
-    
+    color: #FFCB77;}
 .button:hover {
         background-color: white;
-        border-color: white;
         color: #FFCB77;}
         nav {
             margin: 0 auto;
             max-width: 760px;
    
         }
-
-/* .button_alert{
-    margin-bottom: 10px;
-} */
 
     /* .banner2{
         padding-bottom: 5px;
@@ -411,4 +332,6 @@ p{
         height: auto;
         max-width: 960px;
       }
-    
+      .chamber h1{
+          text-align: center;
+      }
