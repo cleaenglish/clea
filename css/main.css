@@ -160,19 +160,21 @@ p{
        
     .join{
         font-family: 'Poppins', sans-serif;
-        background-image: url("https://cdn.glitch.global/9f162c5b-d9b9-4af6-b133-8f18bdfa2aeb/pexels-zaksheuskaya-1568607.jpg?v=1664237933983");
+        background-image: url("https://cdn.glitch.global/b871c8c6-5f77-4d6d-a1fd-f6f97a229c4a/pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-19670%20(1).jpg?v=1664895731001");      
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        backdrop-filter: blur(8px);
         grid-area: join;
         display:none;
         color: #0445a6;
         font-size: 1.2em;
        
         }
+
     .news{
         font-family: 'Poppins', sans-serif;
-        background-image: url("https://cdn.glitch.global/9f162c5b-d9b9-4af6-b133-8f18bdfa2aeb/pexels-zaksheuskaya-1568607.jpg?v=1664237933983");
+        background-image: url("https://cdn.glitch.global/b871c8c6-5f77-4d6d-a1fd-f6f97a229c4a/pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-19670%20(1).jpg?v=1664895731001");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -222,6 +224,8 @@ p{
     padding: 10px;
     text-align: center;
    }
+
+  
 .delivery{
     display:flex;
     height: 150px;

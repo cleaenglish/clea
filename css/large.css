@@ -39,7 +39,12 @@ grid-template:
     .event h2{
         font-size: 1.5em;
     }
-
+   .event{
+        margin:70px 80px;
+       } 
+       .news{
+        padding:70px 0 70px 80px ;
+       }
     .delivery h1,.strategies h1, .companies h1{
    font-size: 1.5em;
     }
