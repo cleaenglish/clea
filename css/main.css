@@ -104,7 +104,7 @@ p{
         font-weight: bold;
      }
     .event{
-    
+        gap: 70px;
         font-size: 1em;
         font-weight: 600;
         grid-area: event;
@@ -114,7 +114,9 @@ p{
         justify-content: center;
     }
     .event h1{
+     
         font-family: 'Poppins', sans-serif;
+
     }
     
     .chamber{
@@ -122,6 +124,7 @@ p{
     background-image:url("https://cdn.glitch.global/b871c8c6-5f77-4d6d-a1fd-f6f97a229c4a/w1.webp?v=1664504836211");
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
         font-family: 'Poppins', sans-serif ;
 
         
@@ -168,7 +171,7 @@ p{
        
         }
     .news{
-       
+        font-family: 'Poppins', sans-serif;
         background-image: url("https://cdn.glitch.global/9f162c5b-d9b9-4af6-b133-8f18bdfa2aeb/pexels-zaksheuskaya-1568607.jpg?v=1664237933983");
         background-repeat: no-repeat;
         background-size: cover;
@@ -181,8 +184,8 @@ p{
         flex-direction: column
         
     }
-    .news p, .join p{
-        font-weight:bolder;
+     .join p{
+        font-weight:400;
     }
     .aside{
         font-family: 'Poppins', sans-serif;
@@ -220,28 +223,59 @@ p{
     text-align: center;
    }
 .delivery{
-
-    /* background-image:url("https://cdn.glitch.global/b871c8c6-5f77-4d6d-a1fd-f6f97a229c4a/w1.webp?v=1664504836211"); */
-        background-repeat: no-repeat;
+    display:flex;
+    height: 150px;
+    background-position: center;
+background-image:url("https://cdn.glitch.global/b871c8c6-5f77-4d6d-a1fd-f6f97a229c4a/pexels-andrea-piacquadio-3781645.jpg?v=1664404138010"); 
+background-position: center;
+background-repeat: no-repeat;
         background-size: cover;
     grid-area: delivery;
+    color: white;
+    text-shadow: 2px 2px 2px BLACK,
+    2px 2px 2px BLACK; 
+    align-items: flex-end;
+    justify-content:center ;
+}
+.delivery h1, .companies h1, .strategies h1 {
+    font-size: 1.4em;
 }
 .companies{
-    
-    /* background-image:url("https://cdn.glitch.global/b871c8c6-5f77-4d6d-a1fd-f6f97a229c4a/w1.webp?v=1664504836211"); */
-        background-repeat: no-repeat;
-        background-size: cover;
+    height: 150px;
+    display:flex;
+    align-items: flex-end;
+    justify-content:center ;
+    background-position: center;
+    color: white;
+   background-image:url("https://cdn.glitch.global/b871c8c6-5f77-4d6d-a1fd-f6f97a229c4a/pexels-andy-barbour-6684211.jpg?v=1664553492309"); 
+   background-position: center;
+   background-repeat: no-repeat;
+    background-size: cover;
     grid-area: companies;
-    align-items: center;
-    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 2px BLACK,
+    2px 2px 2px BLACK; 
+
+}
+
+.news p{
+font-weight: 500;
 }
 .strategies{
-  
-    /* background-image:url("https://cdn.glitch.global/b871c8c6-5f77-4d6d-a1fd-f6f97a229c4a/w1.webp?v=1664504836211"); */
-        background-repeat: no-repeat;
-        background-size: cover;
+    display:flex;
+    align-items: flex-end;
+    justify-content:center ;
+ 
+
+    background-image:url("https://cdn.glitch.com/b871c8c6-5f77-4d6d-a1fd-f6f97a229c4a%2Fpexels-photo-2769753.jpeg?v=1623454714317");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     grid-area: strategies;
     display:none;
+    color: white;
+    text-shadow: 2px 2px 2px BLACK,
+    2px 2px 2px BLACK; 
 
 }
 .text{
@@ -315,9 +349,12 @@ p{
     margin-bottom: 10px;
 } */
 
-    /* .banner2{
-        padding-bottom: 5px;
-    } */
+   .banner2 p, .event h2{
+        font-size: 1em;
+    } 
+    .event h2{
+       text-align: left;
+    }
     /* .location h2{text-align: center;} */
 .information{
     display: grid;
