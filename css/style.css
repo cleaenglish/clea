@@ -1,0 +1,139 @@
+.custombg {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+      ),url(https://cdn.glitch.global/b871c8c6-5f77-4d6d-a1fd-f6f97a229c4a/pexels-andrea-piacquadio-3781645.jpg?v=1664404138010);
+    background-position: 20% 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+height: 700px;
+width:100%
+}
+
+.jumbotron{
+    background: #000 url(https://cdn.glitch.global/b871c8c6-5f77-4d6d-a1fd-f6f97a229c4a/pexels-andrea-piacquadio-3781645.jpg?v=1664404138010)0 0 /cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: stretch;
+  }
+  
+  .flex-items:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+  .flex-items:nth-child(2) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+  .flex-items:nth-child(3) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  .what-float{
+    
+    position:fixed;
+    width:61px;
+    height:61px;
+    bottom:80px;
+    right:60px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+  }
+  
+  .my-what-float{
+    margin-top:5px;
+  }
+  .what-float:hover .bi-whatsapp {
+    fill: #007336ff; 
+  }
+  .bi-whatsapp {
+    width: 45px; 
+    height: 45px; 
+  }
+
+ 
+  /* #bizcoxx_main_menu > ul > li:nth-child(7) > div > div > div > div:nth-child(2)
+  #bizcoxx_main_menu > ul > li:nth-child(7) > div > div > div > div:nth-child(3)
+  #bizcoxx_main_menu > ul > li:nth-child(6) > div > div > div > div:nth-child(2)
+  #bizcoxx_main_menu > ul > li:nth-child(6) > div > div > div > div:nth-child(3)
+  #bizcoxx_main_menu > ul > li:nth-child(5) > div > div > div > div:nth-child(2)
+  #bizcoxx_main_menu > ul > li:nth-child(5) > div > div > div > div:nth-child(3)
+  #bizcoxx_main_menu > ul > li:nth-child(4) > div > div > div > div:nth-child(2)
+  #bizcoxx_main_menu > ul > li:nth-child(4) > div > div > div > div:nth-child(3)
+  #bizcoxx_main_menu > ul > li:nth-child(3) > div > div > div > div:nth-child(2)
+  #bizcoxx_main_menu > ul > li:nth-child(3) > div > div > div > div:nth-child(3)
+  #bizcoxx_main_menu > ul > li:nth-child(2) > div > div > div > nav > div > ul > li:nth-child(1) > div > div > div > div:nth-child(2)
+  #bizcoxx_main_menu > ul > li:nth-child(2) > div > div > div > nav > div > ul > li:nth-child(1) > div > div > div > div:nth-child(3)
+  #bizcoxx_main_menu > ul > li:nth-child(2) > div > div > div > nav > div > ul > li:nth-child(2) > div > div > div > div:nth-child(2)
+  #bizcoxx_main_menu > ul > li:nth-child(2) > div > div > div > nav > div > ul > li:nth-child(2) > div > div > div > div:nth-child(3) */
+
+ 
+
+/* 
+                        body>div.navbar-variant-03>div.industry-support-wrap>div>div>div>div>div.right-content.d-md-flex>ul:nth-child(1),
+        #bizcoxx_main_menu>ul>li:nth-child(-n+4)>div>div>div>div:nth-child(-n+4)>div>ul>li:nth-child(-n+4)>a, */
+
+
+
+/* 
+
+
+        @media (max-width: 767px) {
+
+          #bizcoxx_main_menu>ul>li:nth-child(1)>div>div>div>div:nth-child(2),
+          #bizcoxx_main_menu>ul>li:nth-child(1)>div>div>div>div:nth-child(3),
+    #bizcoxx_main_menu > ul > li:nth-child(7) > div > div > div > div:nth-child(2),
+    #bizcoxx_main_menu > ul > li:nth-child(7) > div > div > div > div:nth-child(3),
+    #bizcoxx_main_menu > ul > li:nth-child(6) > div > div > div > div:nth-child(2),
+    #bizcoxx_main_menu > ul > li:nth-child(6) > div > div > div > div:nth-child(3),
+    #bizcoxx_main_menu > ul > li:nth-child(5) > div > div > div > div:nth-child(2),
+    #bizcoxx_main_menu > ul > li:nth-child(5) > div > div > div > div:nth-child(3),
+    #bizcoxx_main_menu > ul > li:nth-child(4) > div > div > div > div:nth-child(2),
+    #bizcoxx_main_menu > ul > li:nth-child(4) > div > div > div > div:nth-child(3),
+    #bizcoxx_main_menu > ul > li:nth-child(3) > div > div > div > div:nth-child(2),
+    #bizcoxx_main_menu > ul > li:nth-child(3) > div > div > div > div:nth-child(3),
+    #bizcoxx_main_menu > ul > li:nth-child(2) > div > div > div > nav > div > ul > li:nth-child(1) > div > div > div > div:nth-child(2),
+    #bizcoxx_main_menu > ul > li:nth-child(2) > div > div > div > nav > div > ul > li:nth-child(1) > div > div > div > div:nth-child(3),
+    #bizcoxx_main_menu > ul > li:nth-child(2) > div > div > div > nav > div > ul > li:nth-child(2) > div > div > div > div:nth-child(2),
+    #bizcoxx_main_menu > ul > li:nth-child(2) > div > div > div > nav > div > ul > li:nth-child(2) > div > div > div > div:nth-child(3){
+              display: none;
+          }
+      }
+
+
+      body>div.navbar-variant-03>.industry-support-wrap>div>div>div>div>.right-content.d-md-flex>ul:nth-child(1),
+      #bizcoxx_main_menu>ul>li:nth-child(-n+4)>div>div>div>div:nth-child(-n+4)>div>ul>li:nth-child(-n+4)>a,
+
+
+      #bizcoxx_main_menu > ul > li:nth-child(2) > div > div > div > nav > div > ul > li:nth-child(3) > div > div > div > div:nth-child(2),
+      #bizcoxx_main_menu > ul > li:nth-child(2) > div > div > div > nav > div > ul > li:nth-child(3) > div > div > div > div:nth-child(3),
+      body > div.navbar-variant-03.uxo > div.industry-support-wrap > div > div > div > div > div.right-content.d-md-flex > ul:nth-child(1)
+
+      /html/body/div[9]/div/div/a/svg */
